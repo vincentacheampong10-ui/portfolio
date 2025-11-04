@@ -1,6 +1,7 @@
 package com.pluralsight;
 
 public abstract class FixedAsset {
+
     private String name;
     private double marketValue;
 
@@ -12,7 +13,6 @@ public abstract class FixedAsset {
     public String getName() {
         return name;
     }
-
 
     public double getMarketValue() {
         return marketValue;
